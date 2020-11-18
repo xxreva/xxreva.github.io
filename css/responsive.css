@@ -1,0 +1,43 @@
+/*Mobile Version*/
+@media (max-width: 768px){
+    .we-pelindo p{
+        width: auto;
+    }
+}
+
+@media (max-width: 1470px){
+    .we-pelindo h2{
+        font-size: 41px;
+    }
+}
+
+@media (max-width: 1470px){
+    .we-pelindo p{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 925px){
+    .slide .benner{
+        height: auto;
+    }
+}
+
+@media (max-width: 925px){
+    .benner img .img-responsive{
+        height: 600px;
+    }
+}
+
+@media (max-width: 570px){
+    .text-benner{
+        top: 50%;
+        width: 380px;
+    }
+}
+
+@media (max-width: 570px){
+    .text-benner h1{
+        font-size: 35px;
+    }
+}

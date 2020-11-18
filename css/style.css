@@ -1,0 +1,251 @@
+@font-face {
+    font-family: Barlow Semibold;
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/Barlow-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Barlow Black;
+    font-style: normal;
+    font-weight: 900;
+    src: url('/fonts/Barlow-Black.ttf');
+}
+
+@font-face{
+    font-family: DIN Black;
+    font-style: normal;
+    font-weight: 800;
+    src: url('/fonts/DIN-Black.ttf');
+}
+
+@font-face{
+    font-family: Barlow Bold;
+    font-style: normal;
+    font-weight: 800;
+    src: url("/fonts/Barlow-Bold.ttf");
+}
+
+@font-face{
+    font-family: Barlow Regular;
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/Barlow-Regular.ttf");
+}
+
+@font-face {
+    font-family: Barlow Medium;
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Barlow-Medium.woff') format('woff');
+    src: url('../fonts/Barlow-Medium.woff2') format('woff2');
+    src: url('../fonts/Barlow-Medium.ttf');
+}
+
+@font-face{
+    font-family: 'IBMPlex' Bold;
+    font-style: italic;
+    font-weight: 700;
+    src: local("fonts/IBMPlexSans-Bold.ttf");
+    src: url("/fonts/IBMPlexSans-Bold.woff") format('woff')
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-position: 0px 0px;
+    background-repeat: repeat;
+    font-family: Barlow Regular, Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    width: auto;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: Barlow Bold,Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400
+}
+
+.wrapper{
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    font-size: 18px;
+    letter-spacing: 2px;
+    background: #BCD6DB !important;
+    max-width: 100%;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+}
+
+.nav-link {
+    font-size: 20px;
+    margin: 15px;
+    color: black !important;
+    font-family: IBMPlex;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: rgb(255, 25, 0) !important;
+    transition: .4s;
+}
+
+.nav-item .active {
+    color: rgb(255, 0, 0) !important;
+}
+
+.img-responsive {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-benner {
+    position: absolute;
+    transform: translate(-50%, -60%);
+    top: 50%;
+    left: 50%;
+    width: 530px;
+}
+
+.text-benner h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Barlow Black;
+    text-transform: uppercase;
+    font-size: 77px;
+}
+
+.we-pelindo {
+    text-align: center;
+    padding: 43px 4.5%;
+    padding-bottom: 65px;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.we-pelindo h2 {
+    font-family: Barlow;
+    font-weight: bold;
+    color: #1B438B;
+    font-size: 50px;
+    margin-bottom: 37px;
+}
+
+.we-pelindo p {
+    font-family: Barlow Regular;
+    color: #1B438B;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 691px;
+}
+
+.home-informasi {
+    display: flex;
+    background-color: #E0DCDC;
+    text-align: center;
+    padding: 76px 5%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.home-informasi .grid {
+    position: relative;
+    text-align: center;
+    height: 252px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.home-informasi .grid h2 {
+    text-align: center;
+    font-size: 38px;
+    font-family: Barlow Semibold;
+    color: #1B438B;
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    background-image: url('../img/connection.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron h2 {
+    font-family: Barlow Black;
+    font-size: 78px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 130px;
+}
+
+.jumbotron h2 b {
+    color: #00B9F2;
+}
+
+.informasi{
+    position: relative;
+    padding: 42px 3%;
+    padding-bottom: 60px;
+}
+
+.judul{
+    font-family: Barlow Bold;
+    font-weight: 900;
+    text-align: center;
+    font-size: 51px;
+    color: #1B438B;
+    margin-bottom: 58px;
+}
+
+.sub-title img{
+    width: 65px;
+    margin-top: -5px;
+}
+
+.profile{
+    text-align: center;
+    padding: 0px 58px;
+}
+
+.footer{
+    display: block;
+    background-color: #8ACDDD;
+    text-align: center;
+    padding: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.footer h2{
+    font-family: Barlow Medium;
+    font-size: 12px;
+    color: #1B438B;
+}
